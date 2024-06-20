@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.big-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.small-container {
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  background-size: cover;
+  width: 40%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button-container {
+  cursor: pointer;
+  background-color: #f8fafc;
+  background-size: cover;
+  padding: 10px;
+  font-family: 'roboto';
+  font-size: 12px;
+  color: #303150;
+  border-radius: 10px;
+  border-width: 0px;
+  margin-bottom: 10px;
+}
